@@ -37,13 +37,13 @@
             backdrop-filter: blur(4px);
             border-radius: 12px;
             padding: 2rem 2.5rem;
-            box-shadow: 0 20px 40px rgba(229, 9, 20, 0.25), 0 0 0 2px #b20710 inset;
+            box-shadow: 0 20px 40px rgba(20, 200, 20, 0.25), 0 0 0 2px #b20710 inset;
             border: 1px solid #e50914;
             transition: box-shadow 0.2s ease;
         }
 
         form:hover {
-            box-shadow: 0 25px 50px rgba(229, 9, 20, 0.4), 0 0 0 2px #e50914 inset;
+            box-shadow: 0 25px 50px rgba(20,200, 20, 0.4), 0 0 0 2px #e50914 inset;
         }
 
         /* banner – Hotstar style */
