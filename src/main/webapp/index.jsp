@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix DevOps · Application</title>
+    <title>Hotstar DevOps · Application</title>
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 
         html, body {
             min-height: 100%;
-            background: #0f0f0f; /* netflix dark base */
+            background: #0f0f0f; /* Hotstar dark base */
             font-family: 'Roboto', Arial, sans-serif;
         }
 
@@ -29,7 +29,7 @@
             background: radial-gradient(circle at 20% 30%, #1a1a1a, #000000);
         }
 
-        /* Netflix red card */
+        /* Hotstar red card */
         form {
             width: 100%;
             max-width: 880px;
@@ -46,7 +46,7 @@
             box-shadow: 0 25px 50px rgba(229, 9, 20, 0.4), 0 0 0 2px #e50914 inset;
         }
 
-        /* banner – netflix style */
+        /* banner – Hotstar style */
         .banner {
             position: relative;
             display: flex;
@@ -72,7 +72,7 @@
             word-break: break-word;
         }
 
-        /* subtle netflix "N" watermark */
+        /* subtle Hotstar "N" watermark */
         .banner::after {
             content: "N";
             font-size: 6rem;
@@ -205,7 +205,7 @@
             z-index: 5;
         }
 
-        /* radio buttons - netflix style */
+        /* radio buttons - Hotstar style */
         .question-answer {
             display: flex;
             flex-wrap: wrap;
@@ -270,7 +270,7 @@
             background: #b20710;
         }
 
-        /* apply button – netflix big red */
+        /* apply button – Hotstar big red */
         .btn-block {
             margin-top: 30px;
             text-align: center;
@@ -317,7 +317,7 @@
             margin-bottom: 10px;
         }
 
-        /* adjust spacing for netflix vibe */
+        /* adjust spacing for Hotstar vibe */
         .banner + div p {
             font-size: 1.15rem;
         }
@@ -332,7 +332,7 @@
     <div class="testbox">
         <form action="/" method="post">
             <div class="banner">
-                <h1>DEVOPS @ NETFLIX</h1>
+                <h1>DEVOPS @ Hotstar</h1>
             </div>
 
             <!-- tagline -->
@@ -359,7 +359,7 @@
             <div class="contact-item">
                 <div class="item">
                     <p>Email <span class="required">*</span></p>
-                    <input type="email" name="email" placeholder="stranger.things@netflix.com" required>
+                    <input type="email" name="email" placeholder="stranger.things@hotstar.com" required>
                 </div>
                 <div class="item">
                     <p>Phone <span class="required">*</span></p>
@@ -377,7 +377,7 @@
                         <option value="job2">Platform Engineer · container orchestration</option>
                         <option value="job3">Chaos Engineer · resilience testing</option>
                         <option value="job4">Observability Lead · tracing & metrics</option>
-                        <option value="job5">Junior DevOps · Netflix internship</option>
+                        <option value="job5">Junior DevOps · Hotstar internship</option>
                     </select>
                 </div>
                 <div class="item">
@@ -410,7 +410,7 @@
                 </div>
             </div>
 
-            <!-- resume : URL + file attach (Netflix style) -->
+            <!-- resume : URL + file attach (Hotstar style) -->
             <div class="item">
                 <p><i class="fas fa-cloud-upload-alt" style="color:#e50914;"></i> Resume (URL or upload)</p>
                 <input type="url" name="resume_url" placeholder="https://linkedin.com/in/yourprofile or portfolio link" style="margin-bottom: 12px;">
@@ -418,7 +418,7 @@
                 <p style="font-size: 0.8rem; color: #888; margin-top: 4px;">Accepted: PDF, DOC, TXT (max 10MB)</p>
             </div>
 
-            <!-- references Y/N (netflix themed) -->
+            <!-- references Y/N (Hotstar themed) -->
             <div class="question">
                 <p>Include references? (optional, but recommended)</p>
                 <div class="question-answer">
@@ -438,9 +438,9 @@
                 <button type="submit">Apply Now!</button>
             </div>
 
-            <!-- tiny footer (netflix copyright style) -->
+            <!-- tiny footer (Hotstar copyright style) -->
             <div style="margin-top: 20px; text-align: right; font-size: 0.7rem; color: #505050;">
-                <i class="fas fa-play" style="color:#e50914; font-size: 0.5rem;"></i> Netflix DevOps · 2025
+                <i class="fas fa-play" style="color:#e50914; font-size: 0.5rem;"></i> Hotstar DevOps · 2025
             </div>
         </form>
     </div>
