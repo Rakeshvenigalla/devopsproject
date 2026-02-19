@@ -1,6 +1,6 @@
 node
 {
-    stage("checkoutSC")
+    stage("checkoutSCSC")
     {
         git branch: 'main', url: 'https://github.com/devopsenthusiasts/devopsproject.git'
         mail bcc: '', body: 'The source code is checked out successfully!', cc: '', from: '', replyTo: '', subject: 'checkout successful', to: 'projects2488@gmail.com'
