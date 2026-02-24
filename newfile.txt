@@ -1,6 +1,6 @@
 oHello World
 WElcome to Git sessions
-hellow
+hello
 Linux and shell
 git and github
 
