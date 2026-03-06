@@ -4,3 +4,6 @@ print(a+b)
 for a in range(10):
   print(f'This number is {a}')
   print(f"where b = 3 {a+b}")
+for a in range(10):
+  print(f'This number is {a}')
+  print(f"where b = 3 {a+b}")
